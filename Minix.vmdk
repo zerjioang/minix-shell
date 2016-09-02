@@ -1,0 +1,21 @@
+# Disk DescriptorFile
+version=1
+CID=63040143
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 210672 SPARSE "Minix-s001.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.encoding = "windows-1252"
+ddb.geometry.cylinders = "209"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "dcb1bed10c4338a4a601cd0863040143"
+ddb.toolsVersion = "0"
+ddb.virtualHWVersion = "4"
